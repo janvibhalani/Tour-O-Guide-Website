@@ -1,0 +1,113 @@
+body 
+{
+  font-family:sans-serif; 
+  background: -webkit-linear-gradient(to right, #f3f6f3, #f7faf7);  
+  background: linear-gradient(to right, #f3f6f3, #f7faf7); 
+  color:rgb(243, 240, 240);
+}
+
+
+h1{
+    text-align: center;
+}
+
+
+form{
+    width:35rem;
+    margin: auto;
+    color:rgb(14, 14, 14);
+    backdrop-filter: blur(16px) saturate(180%);
+    -webkit-backdrop-filter: blur(16px) saturate(180%);
+    background-color: rgba(11, 157, 28, 0.727);
+    border-radius: 12px;
+    border: 1px solid rgba(21, 19, 19, 0.125);
+    padding: 20px 25px;
+}
+
+input[type=text], input[type=password]{
+    width: 100%;
+    margin: 10px 0;
+    border-radius: 5px;
+    padding: 15px 18px;
+    box-sizing: border-box;
+  }
+
+button {
+    background-color: #191a1a;
+    color: white;
+    padding: 14px 20px;
+    border-radius: 5px;
+    margin: 7px 0;
+    width: 100%;
+    font-size: 18px;
+  }
+
+button:hover {
+    opacity: 0.6;
+    cursor: pointer;
+}
+
+.headingsContainer{
+    text-align: center;
+}
+
+.headingsContainer p{
+    color: rgb(16, 14, 14);
+}
+.mainContainer{
+    padding: 16px;
+}
+
+
+.subcontainer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.subcontainer a{
+    font-size: 16px;
+    margin-bottom: 12px;
+}
+
+span.forgotpsd a {
+    float: right;
+    color: rgb(20, 20, 20);
+    padding-top: 16px;
+  }
+
+.forgotpsd a{
+    color: rgb(21, 22, 23);
+  }
+  
+.forgotpsd a:link{
+    text-decoration: none;
+  }
+
+  .register{
+    color: rgb(15, 14, 14);
+    text-align: center;
+  }
+  
+  .register a{
+    color: rgb(21, 22, 22);
+  }
+  
+  .register a:link{
+    text-decoration: none;
+  }
+
+  /* Media queries for the responsiveness of the page */
+  @media screen and (max-width: 600px) {
+    form{
+      width: 25rem;
+    }
+  }
+  
+  @media screen and (max-width: 400px) {
+    form{
+      width: 20rem;
+    }
+  }
+
